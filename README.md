@@ -21,7 +21,11 @@ No installation Required!
 
 ### Usage:
 
-  <img src="assets\images\portfolio-page.png" alt="portfolio">
+<img src="assets\images\portfolio-page.png" alt="portfolio"><br>
+
+You are <a href="https://github.com/wlowrimore/William-Lowrimore-Portfolio" target="_blank">here</a>!<br>
+
+See my <a href="https://wlowrimore.github.io/William-Lowrimore-Portfolio/#studies" target="_blank">deployed</a> Portfolio!<br>
 
 ### License:
 
