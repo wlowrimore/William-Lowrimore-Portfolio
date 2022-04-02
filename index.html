@@ -18,11 +18,11 @@
             <img class="thumbnail" src="assets\images\profile-portfolio_edited.jpg">
             <h5 class="text-center"><b>William Lowrimore</b></h5><br>
             <ul class="text-center no-bullet">
-              <h5><b>School</b></h5>
+              <h5><b><u>School</u></b></h5>
               <li>Vanderbilt University Full Stack Coding Bootcamp</li><br>
-              <h5><b>Location</b></h5>
+              <h5><b><u>Location</u></b></h5>
               <li>Nashville, TN</li><br>
-              <h5><b>Studies</b></h5>
+              <h5 id="studies"><b><u>Studies</u></b></h5>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -50,6 +50,26 @@
               <span class="title-bar-title">William Lowrimore</span>
             </div>
           </div>
+
+          <!-- top menu -->
+          <div class="text-start top-bar">
+            <div class="top-bar-left">
+              <span data-responsive-toggle="responsive-menu" data-hide-for="small">
+                <span class="menu-icon dark" data-toggle></span>
+              </span>
+            </div>
+            <div id="responsive-menu">
+              <div class="top-bar-section">
+                  <ul class="menu">
+                      <li class="title"><a class="title-link" href="#myWork">My Work</a></li>
+                      <li class="title"><a class="title-link" href="#contact">Contact</a></li>
+                      <li class="title"><a class="title-link" href="#studies">Studies</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+
           <div class="callout primary">
             <div class="row column">
               <h1 class="text-center">William Lowrimore | Full Stack Developer</h1>
@@ -68,7 +88,7 @@
             </div>
           </div>
           <div class="column small-up-2 medium-up-4 large-up-6">
-            <h3 class="row text-start">My Work</h3><br>
+            <h3 class="row text-start" id="myWork">My Work</h3><br>
             <div class="row small-up-2 medium-up-4 large-up-6 text-center">
               <img class= "thumbnail" width='1000' src="assets\images\NotWork.png" alt="thumbnail"><br>
               <h5>NotWork</h5>
@@ -120,7 +140,7 @@
 
           <div class="row">
             <div class="medium-12 columns">
-              <h3>Contact Me</h3>
+              <h3 id="contact">Contact Me</h3>
               <p>If you would like to reach out to me, please feel free to do so.  You can reach me via the links below.
                 I would be happy to chat with you, help out with a project that you may be working on, or if you have an 
                 idea and need someone to help you bring it to life, I would be glad to help with that as well.
@@ -137,7 +157,7 @@
             <footer class="column">
               <div class="row text-center medium-12 columns">
                 <p>This site was created with <span style="font-size: 24px; color:red;">&hearts;</span>
-                by William Lowrimore | &#169 2022 | <a href="https://get.foundation" target="_blank">Foundation</a></p>
+                by William Lowrimore | &#169 2022 All rights reserved | <a href="https://get.foundation" target="_blank">Foundation</a></p>
               </div>
             </footer>
           </div>
